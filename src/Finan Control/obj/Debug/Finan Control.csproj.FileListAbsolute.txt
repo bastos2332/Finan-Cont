@@ -82,3 +82,9 @@ C:\Users\gabriel\Desktop\Github\Finan-Cont\Finan Control\Finan Control\obj\Debug
 C:\Users\gabriel\Desktop\Github\Finan-Cont\Finan Control\Finan Control\obj\Debug\Finan Control.pdb
 C:\Users\gabriel\Desktop\Github\Finan-Cont\Finan Control\Finan Control\obj\Debug\Finan_Control.Migrations.TabelasIniciais.resources
 C:\Users\gabriel\Desktop\Github\Finan-Cont\Finan Control\Finan Control\obj\Debug\Finan Control.csproj.GenerateResource.cache
+C:\Users\gabriel\Desktop\Github\Finan-Cont\src\Finan Control\obj\Debug\Finan Control.csprojAssemblyReference.cache
+C:\Users\gabriel\Desktop\Github\Finan-Cont\src\Finan Control\obj\Debug\Finan_Control.Migrations.TabelasIniciais.resources
+C:\Users\gabriel\Desktop\Github\Finan-Cont\src\Finan Control\obj\Debug\Finan Control.csproj.GenerateResource.cache
+C:\Users\gabriel\Desktop\Github\Finan-Cont\src\Finan Control\obj\Debug\Finan Control.csproj.CoreCompileInputs.cache
+C:\Users\gabriel\Desktop\Github\Finan-Cont\src\Finan Control\obj\Debug\Finan Control.dll
+C:\Users\gabriel\Desktop\Github\Finan-Cont\src\Finan Control\obj\Debug\Finan Control.pdb
