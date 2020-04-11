@@ -10,7 +10,7 @@ namespace Finan_Control.App_Start
 
     using Ninject;
     using Ninject.Web.Common;
-
+    using Finan_Control.DAO;
     public static class NinjectWebCommon 
     {
         private static readonly Bootstrapper bootstrapper = new Bootstrapper();
@@ -61,8 +61,7 @@ namespace Finan_Control.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
-            kernel.Bind<Finan_Control.DAO.FinanContext>().ToSelf().InRequestScope();
-
+            kernel.Bind<FinanContext>().ToSelf().InRequestScope();
         }        
     }
 }

@@ -8,7 +8,7 @@ namespace Finan_Control.Entidades
 {
     public enum TipoMovimentacao
     {
-        Entrada,
-        Saida
+        Entrada = 0,
+        Saida = 1
     }
 }

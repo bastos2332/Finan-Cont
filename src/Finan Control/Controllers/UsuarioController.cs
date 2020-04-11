@@ -14,7 +14,7 @@ namespace Finan_Control.Controllers
 
         public UsuarioController(UsuarioDAO usuarioDAO)
         {
-            this.UsuarioDAO = new UsuarioDAO();
+            this.UsuarioDAO = usuarioDAO;
         }
 
         public ActionResult Index()

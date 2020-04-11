@@ -1,0 +1,24 @@
+﻿@model Finan_Control.Entidades.Movimentacao
+
+@using (Html.BeginForm("Adiciona", "Movimentacao", FormMethod.Post))
+{
+    @Html.LabelFor(m => m.Valor, "Valor:")
+    @Html.TextBoxFor(m => m.Valor, new { @class = "form-control" })
+    @Html.ValidationMessageFor(m => m.Valor)
+
+    @Html.LabelFor(m => m.Usuario, "Usuário:")
+    @Html.DropDownListFor(m => m.Usuario, new SelectList(ViewBag.Usuarios, "Id", "Nome"), new { @class = "form-control" })
+    @Html.ValidationMessageFor(m => m.Usuario)
+
+    @Html.LabelFor(m => m.TipoMovimentracao, "Tipo Movimetação:")
+    @Html.EnumDropDownListFor(m => m.TipoMovimentracao, new {@class= "form-control" })
+    @Html.ValidationMessageFor(m => m.TipoMovimentracao)
+
+    @Html.LabelFor(m => m.Data,"Data Movimentação", "Data:")
+    @Html.TextBoxFor(m => m.Data, new { @class = "form-control" })
+    @Html.ValidationMessageFor(m => m.Data)
+
+    <input type="submit" name="name" value="Salvar" class="btn btn-success"  />
+
+}
+

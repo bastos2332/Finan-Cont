@@ -1,0 +1,27 @@
+﻿@model List<Finan_Control.Entidades.Movimentacao>
+
+@Html.ActionLink("Nova Movimetação","Form", "Movimentacao")
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Valor</th>
+            <th>Data</th>
+            <th>Tipo</th>
+            <th>Usuario</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var movimentacao in Model)
+        {
+            <tr>
+                <td>@movimentacao.Id</td>
+                <td>@movimentacao.Valor</td>
+                <td>@movimentacao.Data</td>
+                <td>@movimentacao.TipoMovimentracao</td>
+                <td>@movimentacao.Usuario.Nome</td>
+            </tr>
+        }
+    </tbody>
+</table>

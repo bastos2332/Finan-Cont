@@ -12,6 +12,6 @@ namespace Finan_Control.Entidades
         public DateTime Data { get; set; }
         public TipoMovimentacao TipoMovimentracao { get; set; }
         public int IdUsuario { get; set; }
-        public Usuario Usuario { get; set; }
+        public virtual Usuario Usuario { get; set; }
     }
 }
