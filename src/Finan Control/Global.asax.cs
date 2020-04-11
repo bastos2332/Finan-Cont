@@ -13,6 +13,9 @@ namespace Finan_Control
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            WebMatrix.WebData.WebSecurity.InitializeDatabaseConnection("FinanContext", "Usuarios", "Id", "Nome", true);
+
         }
     }
 }

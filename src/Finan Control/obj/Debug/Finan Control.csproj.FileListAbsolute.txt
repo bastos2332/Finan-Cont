@@ -173,3 +173,7 @@ C:\Users\gabriel\Desktop\Github\Finan-Cont\src\Finan Control\bin\pt-br\System.We
 C:\Users\gabriel\Desktop\Github\Finan-Cont\src\Finan Control\bin\pt-br\System.Web.Helpers.resources.dll
 C:\Users\gabriel\Desktop\Github\Finan-Cont\src\Finan Control\bin\pt-br\System.Web.Mvc.resources.dll
 C:\Users\gabriel\Desktop\Github\Finan-Cont\src\Finan Control\obj\Debug\Finan Control.csproj.CopyComplete
+C:\Users\gabriel\Desktop\Github\Finan-Cont\src\Finan Control\bin\WebMatrix.Data.dll
+C:\Users\gabriel\Desktop\Github\Finan-Cont\src\Finan Control\bin\WebMatrix.WebData.dll
+C:\Users\gabriel\Desktop\Github\Finan-Cont\src\Finan Control\bin\WebMatrix.WebData.xml
+C:\Users\gabriel\Desktop\Github\Finan-Cont\src\Finan Control\bin\WebMatrix.Data.xml
